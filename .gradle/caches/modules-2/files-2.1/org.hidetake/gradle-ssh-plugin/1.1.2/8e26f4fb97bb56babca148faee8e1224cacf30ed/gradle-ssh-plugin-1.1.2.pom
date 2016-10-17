@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.hidetake</groupId>
+  <artifactId>gradle-ssh-plugin</artifactId>
+  <version>1.1.2</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.hidetake</groupId>
+      <artifactId>groovy-ssh</artifactId>
+      <version>1.1.6</version>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>groovy-all</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+  <name>gradle-ssh-plugin</name>
+  <description>Gradle SSH Plugin provides remote execution and file transfer capabilities</description>
+  <url>https://github.com/int128/gradle-ssh-plugin</url>
+  <scm>
+    <url>https://github.com/int128/gradle-ssh-plugin.git</url>
+    <connection>scm:git:https://github.com/int128/gradle-ssh-plugin.git</connection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>int128</id>
+      <name>int128</name>
+    </developer>
+  </developers>
+</project>

@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1472763854835
+Bundle-ManifestVersion: 2
+Bundle-Name: Liferay Gradle Plugins Workspace
+Bundle-SymbolicName: com.liferay.gradle.plugins.workspace
+Bundle-Vendor: Liferay, Inc.
+Bundle-Version: 1.0.40
+Created-By: 1.8.0_92 (Oracle Corporation)
+Git-Descriptor: dd79f08
+Git-SHA: dd79f08fe52acfd06b374c72713b2e4297af9137
+Import-Package: com.liferay.gradle.plugins;version="[2.0,3)",com.lifer
+ ay.gradle.plugins.extensions;version="[1.0,2)",com.liferay.gradle.plu
+ gins.poshi.runner;version="[1.0,2)",com.liferay.gradle.plugins.servic
+ e.builder,com.liferay.gradle.util,com.liferay.gradle.util.copy,de.und
+ ercouch.gradle.tasks.download,groovy.lang;version="[2.4,3)",org.gradl
+ e.api,org.gradle.api.artifacts.dsl,org.gradle.api.artifacts.repositor
+ ies,org.gradle.api.file,org.gradle.api.initialization,org.gradle.api.
+ invocation,org.gradle.api.plugins,org.gradle.api.tasks,org.gradle.api
+ .tasks.bundling,org.gradle.api.tasks.util
+Javac-Debug: on
+Javac-Deprecation: off
+Javac-Encoding: UTF-8
+Private-Package: com.liferay.gradle.plugins.workspace,com.liferay.grad
+ le.plugins.workspace.configurators,com.liferay.gradle.plugins.workspa
+ ce.tasks,com.liferay.gradle.plugins.workspace.util
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-3.2.0.201605172007

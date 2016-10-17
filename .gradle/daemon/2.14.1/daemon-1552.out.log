@@ -1,0 +1,161 @@
+18:13:31.239 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files is not available.  Continuing with fallback.
+18:13:31.243 [DEBUG] [org.gradle.internal.nativeintegration.filesystem.services.FileSystemServices] Using JDK 7 file service org.gradle.internal.nativeintegration.filesystem.jdk7.WindowsJdk7Symlink
+18:13:31.319 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=aef74876-875f-46e7-85d3-44b1b04bc92c,javaHome=C:\Program Files\Java\jdk1.8.0_77,daemonRegistryDir=C:\Users\ntg\.gradle\daemon,pid=1552,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+18:13:31.321 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1476440011321
+18:13:31.342 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Software Loopback Interface 1
+18:13:31.343 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? true
+18:13:31.344 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.345 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback address /127.0.0.1
+18:13:31.345 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback address /0:0:0:0:0:0:0:1
+18:13:31.346 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Software Loopback Interface 1
+18:13:31.346 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (SSTP)
+18:13:31.346 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.347 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.347 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (SSTP)
+18:13:31.348 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IKEv2)
+18:13:31.348 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.349 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.349 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IKEv2)
+18:13:31.350 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (L2TP)
+18:13:31.350 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.351 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.351 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (L2TP)
+18:13:31.351 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (PPTP)
+18:13:31.352 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.353 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.353 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (PPTP)
+18:13:31.353 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (PPPOE)
+18:13:31.354 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.354 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.355 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (PPPOE)
+18:13:31.355 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IPv6)
+18:13:31.355 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.356 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.357 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IPv6)
+18:13:31.357 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+18:13:31.358 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.359 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.359 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (Network Monitor)
+18:13:31.359 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IP)
+18:13:31.359 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.360 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.360 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IP)
+18:13:31.361 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface RAS Async Adapter
+18:13:31.361 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.362 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.362 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface RAS Async Adapter
+18:13:31.362 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) PRO/1000 MT Network Connection
+18:13:31.363 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.364 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.364 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding remote address /192.168.31.128
+18:13:31.364 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:a049:f2e4:3da4:53a4%eth3
+18:13:31.364 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding remote multicast interface Intel(R) PRO/1000 MT Network Connection
+18:13:31.365 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Microsoft ISATAP Adapter
+18:13:31.365 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.366 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? false
+18:13:31.366 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding remote address /fe80:0:0:0:0:5efe:c0a8:1f80%net4
+18:13:31.366 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) PRO/1000 MT Network Connection-QoS Packet Scheduler-0000
+18:13:31.367 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.368 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.368 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) PRO/1000 MT Network Connection-QoS Packet Scheduler-0000
+18:13:31.368 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface Intel(R) PRO/1000 MT Network Connection-WFP LightWeight Filter-0000
+18:13:31.369 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.370 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.370 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface Intel(R) PRO/1000 MT Network Connection-WFP LightWeight Filter-0000
+18:13:31.370 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+18:13:31.371 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.371 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.371 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+18:13:31.372 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+18:13:31.373 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.374 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.375 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+18:13:31.375 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+18:13:31.376 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a loopback interface? false
+18:13:31.377 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Is this a multicast interface? true
+18:13:31.377 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddressFactory] Adding loopback multicast interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+18:13:31.379 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [de8778ee-4294-4035-9b52-1599c176d84a port:49302, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]].
+18:13:31.381 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Fri Oct 14 18:13:31 CST 2016, with address: [de8778ee-4294-4035-9b52-1599c176d84a port:49302, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:13:31.382 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertising the daemon address to the clients: [de8778ee-4294-4035-9b52-1599c176d84a port:49302, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:13:31.382 [DEBUG] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=aef74876-875f-46e7-85d3-44b1b04bc92c,javaHome=C:\Program Files\Java\jdk1.8.0_77,daemonRegistryDir=C:\Users\ntg\.gradle\daemon,pid=1552,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+18:13:31.383 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [de8778ee-4294-4035-9b52-1599c176d84a port:49302, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]], context: DefaultDaemonContext[uid=aef74876-875f-46e7-85d3-44b1b04bc92c,javaHome=C:\Program Files\Java\jdk1.8.0_77,daemonRegistryDir=C:\Users\ntg\.gradle\daemon,pid=1552,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+18:13:31.389 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:13:31.390 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:13:31.392 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:13:31.393 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:13:31.394 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:13:31.411 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:13:31.412 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+18:13:31.413 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+18:13:31.417 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+18:13:31.418 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+18:13:31.418 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+18:13:31.436 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:49303 to /127.0.0.1:49302.
+18:13:31.545 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 15: received class org.gradle.launcher.daemon.protocol.Build
+18:13:31.545 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 15: Received non-IO message from client: Build{id=5af4accd-0e9a-4eb9-b339-40883732f57e.1, currentDir=C:\ide\eclipse}
+18:13:31.546 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=5af4accd-0e9a-4eb9-b339-40883732f57e.1, currentDir=C:\ide\eclipse}.
+18:13:31.547 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=5af4accd-0e9a-4eb9-b339-40883732f57e.1, currentDir=C:\ide\eclipse} with connection: socket connection from /127.0.0.1:49302 to /127.0.0.1:49303.
+18:13:31.551 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=5af4accd-0e9a-4eb9-b339-40883732f57e.1, currentDir=C:\ide\eclipse}, connection = org.gradle.launcher.daemon.server.DefaultDaemonConnection@62d0cbaa] after 0.0 minutes of idle
+18:13:31.552 [INFO] [org.gradle.launcher.daemon.server.DomainRegistryUpdater] Marking the daemon as busy, address: [de8778ee-4294-4035-9b52-1599c176d84a port:49302, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:13:31.552 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [de8778ee-4294-4035-9b52-1599c176d84a port:49302, addresses:[/127.0.0.1, /0:0:0:0:0:0:0:1]]
+18:13:31.552 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+18:13:31.553 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+18:13:31.557 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+18:13:31.558 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] updating lastActivityAt to 1476440011558
+18:13:31.558 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+18:13:31.559 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=5af4accd-0e9a-4eb9-b339-40883732f57e.1, currentDir=C:\ide\eclipse}. Dispatching build started information...
+18:13:31.559 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: dispatching class org.gradle.launcher.daemon.protocol.BuildStarted
+18:13:31.561 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: {LOCALAPPDATA=C:\Users\ntg\AppData\Local, PROCESSOR_LEVEL=6, FP_NO_HOST_CHECK=NO, USERDOMAIN=ntg-pc, LOGONSERVER=\\NTG-PC, JAVA_HOME=C:\Program Files\Java\jdk1.8.0_77, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\, SystemDrive=C:, APPDATA=C:\Users\ntg\AppData\Roaming, USERNAME=ntg, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, MpConfig_ProductCodeName=AntiSpyware, Path=C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_77\bin;C:\ide\eclipse;, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, OS=Windows_NT, COMPUTERNAME=NTG-PC, PROCESSOR_REVISION=3c03, CommonProgramW6432=C:\Program Files\Common Files, MpConfig_ProductUserAppDataPath=C:\Users\ntg\AppData\Local\Microsoft\Windows Defender, ComSpec=C:\Windows\system32\cmd.exe, MpConfig_ReportingGUID=1CF284E5-690A-4763-A78E-627E4F11CE08, ProgramData=C:\ProgramData, MpConfig_ProductAppDataPath=C:\ProgramData\Microsoft\Windows Defender, ProgramW6432=C:\Program Files, HOMEPATH=\Users\ntg, SystemRoot=C:\Windows, TEMP=C:\Users\ntg\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel, USERPROFILE=C:\Users\ntg, TMP=C:\Users\ntg\AppData\Local\Temp, MpConfig_ProductPath=C:\Program Files\Windows Defender, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=2, windir=C:\Windows, =::=::\}
+18:13:31.570 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+18:13:31.571 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 1552). The daemon log file: C:\Users\ntg\.gradle\daemon\2.14.1\daemon-1552.out.log
+18:13:31.572 [INFO] [org.gradle.launcher.daemon.server.health.DaemonHealthTracker] Starting build in new daemon [memory: 954.7 MB]
+18:13:31.575 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+18:13:31.575 [INFO] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=aef74876-875f-46e7-85d3-44b1b04bc92c,javaHome=C:\Program Files\Java\jdk1.8.0_77,daemonRegistryDir=C:\Users\ntg\.gradle\daemon,pid=1552,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=GBK,-Duser.country=CN,-Duser.language=zh,-Duser.variant]
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins/2.0.10/com.liferay.gradle.plugins-2.0.10.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.poshi.runner/1.0.11/com.liferay.gradle.plugins.poshi.runner-1.0.11.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/de/undercouch/gradle-download-task/3.1.1/gradle-download-task-3.1.1.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.ant.bnd/2.0.28/com.liferay.ant.bnd-2.0.28.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.alloy.taglib/1.0.3/com.liferay.gradle.plugins.alloy.taglib-1.0.3.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.css.builder/1.0.14/com.liferay.gradle.plugins.css.builder-1.0.14.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.gulp/1.0.9/com.liferay.gradle.plugins.gulp-1.0.9.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.jasper.jspc/1.0.9/com.liferay.gradle.plugins.jasper.jspc-1.0.9.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.javadoc.formatter/1.0.11/com.liferay.gradle.plugins.javadoc.formatter-1.0.11.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.js.module.config.generator/1.0.30/com.liferay.gradle.plugins.js.module.config.generator-1.0.30.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.js.transpiler/1.0.34/com.liferay.gradle.plugins.js.transpiler-1.0.34.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.lang.builder/1.0.5/com.liferay.gradle.plugins.lang.builder-1.0.5.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.service.builder/1.0.10/com.liferay.gradle.plugins.service.builder-1.0.10.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.source.formatter/1.0.20/com.liferay.gradle.plugins.source.formatter-1.0.20.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.soy/1.0.4/com.liferay.gradle.plugins.soy-1.0.4.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.test.integration/1.0.9/com.liferay.gradle.plugins.test.integration-1.0.9.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.tld.formatter/1.0.4/com.liferay.gradle.plugins.tld.formatter-1.0.4.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.tlddoc.builder/1.0.3/com.liferay.gradle.plugins.tlddoc.builder-1.0.3.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.upgrade.table.builder/1.0.5/com.liferay.gradle.plugins.upgrade.table.builder-1.0.5.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.wsdd.builder/1.0.7/com.liferay.gradle.plugins.wsdd.builder-1.0.7.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.wsdl.builder/1.0.9/com.liferay.gradle.plugins.wsdl.builder-1.0.9.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.xml.formatter/1.0.6/com.liferay.gradle.plugins.xml.formatter-1.0.6.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.xsd.builder/1.0.5/com.liferay.gradle.plugins.xsd.builder-1.0.5.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.util/1.0.26/com.liferay.gradle.util-1.0.26.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/dm/gradle/gradle-bundle-plugin/0.8.6/gradle-bundle-plugin-0.8.6.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/httpcomponents/httpcomponents-client/4.4.1/httpcomponents-client-4.4.1.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/httpcomponents/project/7/project-7.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/apache/13/apache-13.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/biz/aQute/bnd/biz.aQute.bnd/3.2.0/biz.aQute.bnd-3.2.0.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/ant/ant/1.9.4/ant-1.9.4.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/ant/ant-parent/1.9.4/ant-parent-1.9.4.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.node/1.0.21/com.liferay.gradle.plugins.node-1.0.21.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/zeroturnaround/zt-exec/1.9/zt-exec-1.9.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/biz/aQute/bnd/biz.aQute.bndlib/3.2.0/biz.aQute.bndlib-3.2.0.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/httpcomponents/httpcomponents-core/4.4.1/httpcomponents-core-4.4.1.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/commons/commons-parent/34/commons-parent-34.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/commons-codec/commons-codec/1.9/commons-codec-1.9.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/commons/commons-parent/32/commons-parent-32.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/commons-io/commons-io/1.4/commons-io-1.4.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/commons/commons-parent/7/commons-parent-7.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/apache/apache/4/apache-4.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.pom
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins.workspace/1.0.40/com.liferay.gradle.plugins.workspace-1.0.40.jar
+Download https://cdn.lfrs.sl/repository.liferay.com/nexus/content/groups/public/com/liferay/com.liferay.gradle.plugins/2.0.10/com.liferay.gradle.plugins-2.0.10.jar
